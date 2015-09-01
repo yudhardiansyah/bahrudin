@@ -1,0 +1,166 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+
+
+/*---------------------------------
+navigation
+---------------------------------*/
+.nav>li>a:hover {
+	color: #fff;
+	background-color: transparent !important;
+	transition: 0.5s;
+}
+.navbar-toggle {
+	background-color: transparent;
+	background-image: #e67e22 !important;
+	border: 1px solid #e67e22 !important;
+}
+.icon-bar {
+	background-color: #e67e22 !important;
+}
+/*---------------------------------
+button
+---------------------------------*/
+.btn-download {
+	float:left;
+	width: 100%;
+	margin: 0 45px;
+	height: 60px !important;
+	padding: 12px 0 0 0;
+	background-color: #187b76;
+	font-size: 24px;
+	color: #fff;
+	text-align: center;
+	overflow: hidden;
+}
+.btn-download:before {
+	display: block;
+	content: 'DOWNLOAD';
+	width: 100%;
+	height: 100%;
+	transition: 0.3s all ease;
+}
+.btn-download:after {
+	display: block;
+	content: 'SEE MORE';
+	width: 100%;
+	height: 100%;
+	transition: 0.3s all ease;
+}
+.btn-download:hover {
+	border: 1px solid #187b76;
+	text-decoration: none;
+	background-color: #fff;
+	color: #187b76;
+	transition: 0.1s;
+}
+.btn-download:hover:after {
+	margin: -45px 0 0 0;
+}
+.btn-download:hover:before {
+	margin: 0 0 0 -300px;
+}
+
+ 
+/*---------------------------------
+text size
+---------------------------------*/
+.txt09 {
+	font-size: 9px;
+}
+.txt10 {
+	font-size: 10px;
+}
+.txt12 {
+	font-size: 12px;
+}
+.txt14 {
+	font-size: 14px;
+}
+.txt16 {
+	font-size: 16px;
+}
+.txt18 {
+	font-size: 18px;
+}
+.txt24 {
+	font-size: 24px;
+}
+.txt36 {
+	font-size: 36px;
+}
+.txt48 {
+	font-size: 48px;
+}
+.txt74{
+	font-size: 74px;
+}
+
+/*-------------------------------------------
+font color
+-------------------------------------------*/
+.txtOrange {
+	color: #e67e22;
+}
+.txtGreen {
+	color: #1abc9c;
+}
+.txtWhite {
+	color: #fff;
+}
+.txtBlue {
+	color: #22a5e9;
+}
+/*---------------------------------
+text layout
+---------------------------------*/
+.txtC{text-align:center !important;}
+.txtL{text-align:left!important;}
+.txtR{text-align:right!important;}
+.txtBold{font-weight: bold !important;}
+/*-------------------------------------------
+Layout Adjust
+-------------------------------------------*/
+
+/* margin
+---------------------------------*/
+.mt30 {
+	margin-top: 30px !important;
+}
+.mt40 {
+	margin-top: 40px !important;
+}
+.mt50 {
+	margin-top: 50px !important;
+}
+.mt70 {
+	margin-top: 70px !important;
+}
+.mt80 {
+	margin-top: 80px !important;
+}
+.mt90 {
+	margin-top: 90px !important;
+}
+.mt100 {
+	margin-top: 100px !important;
+}
+.mt109 {
+	margin-top: 109px !important;
+}
+.mt220 {
+	margin-top: 220px !important;
+}
+.ml25 {
+	margin-left: 25px !important;
+}
+.p0 {
+	padding: 0 !important;
+}
+.lh24 {
+	line-height: 24px !important;
+}

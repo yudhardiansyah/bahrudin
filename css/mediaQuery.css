@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media(max-width:768px) { 
+#home {
+	min-height: 633px;
+}
+	.title {
+		width: 100%;
+		margin-left: 200px;
+	}
+	#home h1 {
+		padding: 13px 0 0 0;
+		font-size: 24px;
+	}
+	.btn-download {
+		width: 330px;
+		padding: 0 !important;
+		margin-left: auto !important;
+		text-align: center;
+	}
+	.btn-download:before {
+		margin: 13px 0 0 0;
+	}
+	.btn-download:after {
+		margin: 0;
+	}
+	.btn-download:hover:after {
+		margin: -45px 0 0 0;
+	}
+	.btn-download:hover:before {
+		margin: 0 0 0 -500px;
+	}
+#section-3 {
+	min-height: 700px;
+}
+#section-3 .title2 {
+	
+}
+}
+
+@media(max-width:320px) {
+#home {
+	min-height: 633px;
+}
+	.title {
+		width: 100%;
+		margin-top: 10px !important;
+		margin-left: 0;
+	}
+	#home h1 {
+		padding: 13px 0 0 0;
+		font-size: 24px;
+	}
+	.btn-download {
+		width: 100%;
+		margin-left: auto !important;
+	}
+#section-3 h1 {
+	font-size: 20px;
+}
+	#section-3 h1 span {
+		font-size: 20px;
+	}
+#section-3 .title2 {
+	margin-top: 80px !important;
+}
+#section-3 .images1 {
+	margin: 0px 0px 0px 57px !important;
+}
+#section-4 h1 {
+	font-size: 20px !important;
+}
+#section-4 .email {
+	width: 60%;
+	margin-top: -1px !important;
+}
+#section-4 .subs {
+	width: 38%;
+	font-size: 14px;
+}
+.textFooter1 {
+	margin-top: 20px !important;
+}
+.textFooter2 {
+	margin-top: 0 !important;
+}
+}
